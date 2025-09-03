@@ -1,5 +1,5 @@
 package javaFiles;
 
-public class Inheritence {
+public class Inheritence  {
     
 }

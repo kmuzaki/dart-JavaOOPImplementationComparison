@@ -1,6 +1,6 @@
 package javaFiles;
 
 public abstract class Abstraction {
-    abstract void animalSound();
-    abstract void sleep();
+    abstract void calculateArea();
+    abstract void calculateCircumference();
 }

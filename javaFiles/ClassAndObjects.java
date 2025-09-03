@@ -1,4 +1,4 @@
-package java;
+package javaFiles;
 
 public class ClassAndObjects {
     String name;
@@ -15,4 +15,3 @@ public class ClassAndObjects {
 }
 
 
-    

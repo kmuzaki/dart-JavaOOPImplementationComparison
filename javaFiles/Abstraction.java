@@ -24,3 +24,11 @@ class Square extends Abstraction {
         System.out.println("Circumference of Square: " + circumference);
     }
 }
+
+class AbstractionDemo {
+    public static void main(String[] args) {
+        Abstraction square = new Square(5);
+        square.calculateArea();
+        square.calculateCircumference();
+    }
+}

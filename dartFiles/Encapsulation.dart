@@ -1,8 +1,8 @@
-class Subject {
+class Person {
   String? _name;
   String? _favouriteFood;
 
-  Subject(String name, String favouriteFood) {
+  Person(String name, String favouriteFood) {
     this._name = name;
     this._favouriteFood = favouriteFood;
   }
@@ -22,5 +22,16 @@ class Subject {
   void setFavouriteFood(String favouriteFood) {
     this._favouriteFood = favouriteFood;
   }
-  
+
+}
+
+void main() {
+  Person person = Person("Gordon Freeman", "Pizza");
+  print("Name: ${person.getName()}.");
+  print("Favourite Food: ${person.getFavouriteFood()}.");
+
+  person.setName("Arne Magnusson");
+  person.setFavouriteFood("Microwaved Casserole");
+  print("Updated Name: ${person.getName()}.");
+  print("Updated Favourite Food: ${person.getFavouriteFood()}.");
 }

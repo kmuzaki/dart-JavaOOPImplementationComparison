@@ -6,13 +6,13 @@ public class Polymorphism {
     }
 }
 
-class car extends Polymorphism {
+class Car extends Polymorphism {
     public void carHorn() {
         System.out.println("Beep beep! I'm a car!");
     }
 }
 
-class truck extends Polymorphism {
+class Truck extends Polymorphism {
     public void carHorn() {
         System.out.println("Honk Honk!");
     }
@@ -20,8 +20,8 @@ class truck extends Polymorphism {
 
 class Start {
     public static void main(String[] args) {
-        Polymorphism myVehicle1 = new car();
-        Polymorphism myVehicle2 = new truck();
+        Polymorphism myVehicle1 = new Car();
+        Polymorphism myVehicle2 = new Truck();
 
         myVehicle1.carHorn();
         myVehicle2.carHorn();
